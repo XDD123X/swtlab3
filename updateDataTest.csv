@@ -1,0 +1,21 @@
+id,name,semester,course,expected
+HE1234,Nguyen Van A,6,.NET,true
+HEe234,Nguyen Van A,6,.NET,true
+HE234,Nguyen Van A,6,.NET,true
+he1234,Nguyen Van A,6,.NET,true
+HE1720,Nguyen Van A,6,.NET,true
+HE1234,Nguyen Van B,6,.NET,true
+HE1234,Nguyen Van A,3,.NET,true
+HE1234,nguyen van a,6,.NET,true
+HE1234,Nguyen Van 10,6,.NET,true
+HE1234,Nguyen Van A,0,.NET,true
+HE1234,Nguyen Van A,1,.NET,true
+HE1234,Nguyen Van A,9,.NET,true
+HE1234,Nguyen Van A,10,.NET,true
+HE1234,Nguyen Van A,6,.nET,true
+HE1234,Nguyen Van A,3,.nET,true
+HE1234,Nguyen Van A,6,java,true
+HE1234,Nguyen Van A,6,c/c++,true
+HE1234,Nguyen Van A,6,dotNET,true
+HE1234,Nguyen Van A ,6,.NET,true
+HE1234 ,Nguyen Van A,6,.NET,true
