@@ -47,7 +47,7 @@ public class UpdateWithData {
         int passedTestCases = 0;
         int failedTestCases = 0;
 
-        try ( Reader reader = new FileReader("updateDataTest1.csv");  CSVParser csvParser = new CSVParser(reader, CSVFormat.DEFAULT.withHeader())) {
+        try ( Reader reader = new FileReader("updateDataTest.csv");  CSVParser csvParser = new CSVParser(reader, CSVFormat.DEFAULT.withHeader())) {
 
             IStudentRepository repo = new StudentRepository();
 
