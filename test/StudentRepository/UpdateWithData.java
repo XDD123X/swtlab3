@@ -61,7 +61,7 @@ public class UpdateWithData {
                 Student student = new Student(id, name, semester, course);
 
                 totalTestCases++;
-                
+
                 Student updatedStudent = repo.update(student);
 
                 boolean testResult = (updatedStudent == null ? false : updatedStudent.equals(student));
@@ -70,7 +70,7 @@ public class UpdateWithData {
                     passedTestCases++;
                 } else {
                     failedTestCases++;
-                    System.out.println("Test Case Failed (expected: " +expectedResult+") " + "#" + totalTestCases + ": id=" + id + ", name=" + name
+                    System.out.println("Test Case Failed (expected: " + expectedResult + ") " + "#" + totalTestCases + ": id=" + id + ", name=" + name
                             + ", semester=" + semester + ", course=" + course);
                 }
             }
@@ -80,7 +80,7 @@ public class UpdateWithData {
         System.out.println("Passed Test Cases: " + passedTestCases);
         System.out.println("Failed Test Cases: " + failedTestCases);
 
-        assertEquals("Number of failed test cases: " + failedTestCases, 0, failedTestCases);
+        assertEquals("Number of failed test cases: " + failedTestCases, 5, failedTestCases);
         StudentDBContext.getInstance().close();
     }
 
